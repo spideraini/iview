@@ -156,7 +156,7 @@
                 };
                 if (this.type === 'line') style.visibility = 'visible';
                 if (this.animated) {
-                    style.transform = `translate3d(${this.barOffset}px, 0px, 0px)`;
+                    style.transform = `translate3d((${this.barOffset}-16)px, 0px, 0px)`;
                 } else {
                     style.left = `${this.barOffset}px`;
                 }
